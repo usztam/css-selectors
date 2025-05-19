@@ -1,0 +1,159 @@
+h1{
+    color: blue;
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+p{
+    color: black;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+    background-color: teal;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(231, 221, 221, 0.89);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#footer{
+    color: rgb(30, 99, 99);
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="password"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button{
+    background-color: #7fad19;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#submit{
+    color: purple;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#cancel{
+    color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div p{
+    color: rgb(71, 33, 33);
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+    background-color: plum;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+div > p{
+    
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+    background-color: lightblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+h2 + article{
+    color: rgb(182, 13, 13);
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+    background-color: rgb(185, 16, 185);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+h3 ~ article{
+    color: rgb(226, 177, 233);
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+    background-color: rgb(185, 16, 185);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button:hover{
+    background-color: #415e83;
+}
+
+input:focus{
+    background-color: #a0829d;
+    color: #d16f20;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #8c0db3;
+    border-radius: 4px;
+}
+
+li:nth-child(3n){
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+    background-color: #64e4e4;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+li:nth-child(3n+1){
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: justify;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.quote::before{
+    content: open-quote;
+    font-size: 2em;
+    color: #f1c40f;
+}
+.quote::after{
+    content: close-quote;
+    font-size: 2em;
+    color: #f1c40f;
+}
